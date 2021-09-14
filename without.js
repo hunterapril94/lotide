@@ -39,4 +39,4 @@ const without = function (original, itemsToRemove) {
   return removed;
 }
 const words = ["hello", "world", "lighthouse"]
-console.log(without(words, ["lighthouse"]))
+console.log(without(words, ["lighthouse"]));
