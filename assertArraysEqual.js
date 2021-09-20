@@ -19,7 +19,4 @@ const assertArraysEqual = function(array1, array2) {
   }
   return message;
 };
-console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
-console.log(assertArraysEqual([1, 2, 3], [3, 2, 1])); // => false
-console.log(assertArraysEqual(["1", "2", "3"], ["1", "2", "3"])); // => true
-console.log(assertArraysEqual(["1", "2", "3"], ["1", "2", 3])); // => false
+module.exports = assertArraysEqual
