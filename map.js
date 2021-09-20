@@ -35,3 +35,4 @@ map(words, x=>x[0])
 console.log(assertArraysEqual(results1, ["g", "c", "t", "m", "t"]))
 console.log(assertArraysEqual(results2, [6, 7, 2, 5, 3]))
 console.log(assertArraysEqual(results3, [12, 14, 4, 10, 6]))
+module.exports = map

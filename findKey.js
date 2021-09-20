@@ -37,3 +37,4 @@ let results2 =  findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 7)
 console.log(assertEqual(results2, undefined))
+module.exports = findKey

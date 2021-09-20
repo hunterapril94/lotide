@@ -23,3 +23,4 @@ const countLetters = function(string) {
 let myName = "April Larsen";
 assertEqual(countLetters(myName).l, 2);
 console.log(countLetters(myName));
+module.exports = countLetters
