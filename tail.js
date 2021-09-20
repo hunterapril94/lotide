@@ -5,13 +5,4 @@ const tail = function(array) {
   }
   return newArray;
 };
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`\u2714 Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`\u274C Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(JSON.stringify(result), JSON.stringify(["Lighthouse", "Labs"]));
+module.exports = tail
